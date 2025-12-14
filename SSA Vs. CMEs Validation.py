@@ -6,7 +6,7 @@ from CMEApproxModel import CMEApproxModel  # Returns runtime, MethRatio, PVecMSM
 from SSAModel import SSAModel  # Returns runtime, frac, prob, StateOut
 
 # Parameters
-NCpG = 6
+NCpG = 6 # Maximum size for Exact CME Model is around 8 CpGs. To test the SSA and CME approximate at higher CpG sites, comment out the CMEExactModel parts
 k = np.array([1, 1, 1, 1, 0, 5, 0, 5,5, 0, 5, 0, 0, 0], dtype=float)
 d = 10
 DL = 30
