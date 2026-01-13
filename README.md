@@ -8,5 +8,5 @@ This repository contains the Approximate Chemical Master Equation (CME), Exact C
 #### SSAModel.py
 are codes found in the Models folder that contain the Approximate CME Model, Exact CME Model, and SSA Model codes, respectively, as functions, for modeling collaborative DNA methylation dynamics. Another python script can be used to call each function under various parameters as is done in the SSA Vs. CMEs Validation code.
 
-Quick start: download all .py scripts into the same folder (three model scripts plus 'SSA Vs. CMEs Validation.py'). Run the validation script to generate a figure comparing the distributions from three methods for a small Methylation Dynamics model.
+Quick start: download all .py scripts into the same folder (three model scripts plus 'SSA Vs. CMEs Validation.py'). Run the validation script to generate a figure comparing the distributions from three methods for a small methylation dynamics model.
 
